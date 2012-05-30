@@ -1,0 +1,33 @@
+{
+	"name": "njs",
+	"description": "Node server files",
+	"maintainers": [
+		{
+			"name": "Dmitriy Kiyatkin",
+			"web": "https://github.com/dkiyatkin/njs"
+		}
+	],
+	"version": "0.0.1",
+	"keywords" : [
+		"njs"
+	],
+	"repository": {
+		"type" : "git",
+		"url" : "git://github.com/dkiyatkin/njs.git"
+	},
+	"engines": {
+		"node": ">=0.6.0"
+	},
+	"dependencies": {
+		"connect": ">=2.0.1"
+	},
+	"bugs": {
+		"url" : "http://github.com/dkiyatkin/njs/issues"
+	},
+	"licenses" : [
+		{
+			"type": "MIT",
+			"url" : "http://github.com/dkiyatkin/njs/raw/master/LICENSE"
+		}
+	]
+}
