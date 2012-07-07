@@ -8,7 +8,7 @@ module.exports = function(options) {
 		if (reg_njs.test(req.url_parse.pathname)) {
 			var pathname = decodeURIComponent(path.join('/',req.url_parse.pathname));
 			var js = path.join(root, pathname);
-			path.exists(js, function(exists) {
+			fs.exists(js, function(exists) {
 				if (exists) {
 					try {
 						require(js).init(req, res, next, root);
